@@ -1,0 +1,15 @@
+.grid {
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+}
+#main  {
+    background-color: mediumturquoise;
+    padding: 1em;
+}
+
+#side-bar {
+    background-color: mistyrose;
+    padding: 1em;
+}

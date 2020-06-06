@@ -1,0 +1,14 @@
+.grid {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns:repeat(3,2fr);
+    grid-gap: 1em;
+    grid-auto-rows: 100px;
+}
+.grid > div {
+    background-color: #eee;
+    padding: 1em;
+}
+.grid > div:nth-child(even) {
+    background-color: #ccc;
+}
